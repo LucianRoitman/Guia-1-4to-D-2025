@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+<<<<<<< HEAD
 //Realizá un programa que resuelva el siguiente problema: Nos piden desarrollar
 //    un  programa que informe si un estacionamiento se encuentra o no 
 //    abierto según la hora  ingresada por el usuario.
@@ -17,11 +18,16 @@ using UnityEngine;
 //        “Ha ingresado una hora incorrecta” 
 
 
+=======
+>>>>>>> 111767732a497ea99054528f130dcf510c9be9ab
 public class Estacionamiento : MonoBehaviour
 {
     public int horaActual;
     bool estaAbierto;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 111767732a497ea99054528f130dcf510c9be9ab
     // Start is called before the first frame update
     void Start()
     {
@@ -38,10 +44,16 @@ public class Estacionamiento : MonoBehaviour
         {
             estaAbierto = false;
         }
+<<<<<<< HEAD
         Debug.Log("El estacionamiento está abierto: " + estaAbierto);
     }
 
 
+=======
+        Debug.Log("El estacionamiento esta abierto: " + estaAbierto); 
+    }
+
+>>>>>>> 111767732a497ea99054528f130dcf510c9be9ab
     // Update is called once per frame
     void Update()
     {
